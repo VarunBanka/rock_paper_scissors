@@ -15,6 +15,7 @@ def start():
             print("Paper covers rock! You lose.")
     elif user_action == "paper":
         if computer_action == "rock":
+            # code by Dev Varun
             print("Paper covers rock! You win!")
         else:
             print("Scissors cuts paper! You lose.")
